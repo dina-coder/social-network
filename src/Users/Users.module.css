@@ -1,0 +1,32 @@
+.selected{
+    font-size: 40px;
+}
+.photos{
+    height:60px ;
+    width:120px ;
+}
+
+.main{
+    display: grid;
+    grid-template-columns:70% 30% ;
+    grid-template-rows:50% 50% ;
+    grid-template-areas:"profilePhoto location "
+                        "info follow ";
+    height: 100px;
+    width: 500px;
+    border: 3px solid cornflowerblue ;
+    border-radius: 10px;
+}
+.profilePhoto{
+   grid-area:profilePhoto;
+}
+.follow{
+    grid-area: follow;
+}
+.info{
+    grid-area: info;
+    margin-top:10px;
+}
+.location{
+    grid-area: location;
+}

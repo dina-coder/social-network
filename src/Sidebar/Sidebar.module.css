@@ -1,0 +1,20 @@
+.Sidebar{
+    grid-area: Sidebar;
+    background-image: url(./../img/sidebar.png);
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+}
+ul{
+    margin-top: 100px;
+}
+li{
+    display: block;
+    color:white;
+}
+a{
+    text-decoration: none;
+}
+
+.active{
+    color: crimson;
+}

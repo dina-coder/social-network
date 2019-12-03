@@ -1,0 +1,6 @@
+.Content{
+grid-area: Content;
+}
+.Image {
+width: 150px;
+}
